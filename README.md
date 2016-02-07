@@ -4,7 +4,7 @@ It's very fun when two or more Reversers work together on one project, נut IDA 
 
 so, this script just pass over your IDA, dump useful info and, with this dump you can update any IDA instance.
 
-# using
+# usage
 
 user_1 open his idb, and run the script
 the script create dump user_1_db_dump.p
