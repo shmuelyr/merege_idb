@@ -92,8 +92,8 @@ if __name__ == '__main__':
     
     
     try:
-    	f = open("%s_db_dump.p" % friend, "rb")
-    	update_db(f)
+    	with open("%s_db_dump.p" % friend, "rb") as f:
+    		update_db(f)
     	
     except IOError:
     	print "where is the file!?"
